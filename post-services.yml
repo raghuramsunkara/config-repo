@@ -17,7 +17,8 @@ management:
     hibernate:
       ddl-auto: update
 
-
+post:
+  welcome-meassage: "welcome"
   datasource:
     url: jdbc:mysql://localhost:3306/post_db
     username: root
