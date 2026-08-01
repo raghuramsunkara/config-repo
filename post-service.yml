@@ -6,7 +6,12 @@ server:
 spring:
   application:
     name: post-services
-
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
   jpa:
     show-sql: true
     hibernate:
