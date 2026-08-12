@@ -1,0 +1,13 @@
+spring:
+    jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/actorinfo_db
+    username: root
+    password: "@Mysql143"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server :
+  port : 8084
