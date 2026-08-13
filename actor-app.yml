@@ -9,6 +9,12 @@ spring:
     username: root
     password: "@Mysql143"
     driver-class-name: com.mysql.cj.jdbc.Driver
+management:
+ endpoints:
+       web:
+        exposure:
+          include : refresh
+            
 
 server:
   port: 8084
