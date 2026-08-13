@@ -14,7 +14,8 @@ management:
        web:
         exposure:
           include : refresh
-            
+post:
+  messaage: hi darling
 
 server:
   port: 8084
