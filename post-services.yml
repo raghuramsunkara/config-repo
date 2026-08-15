@@ -20,12 +20,11 @@ http:
   serviceclient:
     user-service:
       base-url: lb://user-services
-
 management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: "*"
 
 post:
   welcome-message: "welcome to learning"
