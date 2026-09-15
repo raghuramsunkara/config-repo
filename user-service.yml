@@ -13,7 +13,13 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
+user:
+  name: 'raghu'
+management:
+  endpoints:
+     web:
+       exposure:
+         include: refresh
 
 server:
   port: 8081
