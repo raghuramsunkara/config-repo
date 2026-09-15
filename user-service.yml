@@ -14,7 +14,7 @@ spring:
       hibernate:
         format_sql: true
 user:
-  name: 'raghu'
+  name: 'ram'
 management:
   endpoints:
      web:
