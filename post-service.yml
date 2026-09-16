@@ -1,8 +1,9 @@
 spring:
   http:
     serviceclient:
-      user-service:
-             base-url: http://localhost:8081
+       user-service:
+        base-url: lb://user-service
+      #        base-url: http://localhost:8081
   application:
     name: post-service
 
